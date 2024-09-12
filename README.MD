@@ -23,11 +23,15 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 |  Title  |   Publication  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [**DualAnoDiff: Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation**](https://arxiv.org/pdf/2408.13509) | arXiv 2024 | 2024.08 | [Github](https://github.com/yinyjin/DualAnoDiff) |
+|[**CUT: A Controllable, Universal, and Training-Free Visual Anomaly Generation Framework**](https://arxiv.org/pdf/2406.01078) | arxiv | 2024.06| [Github](https://github.com/google/nerfies)|
+|[**AnomalyXFusion: Multi-modal Anomaly Synthesis with Diffusion**]](https://arxiv.org/pdf/2404.19444)| arxiv 2024 | 2024.04 | - |
 | [**AnomalyDiffusion: Few-Shot Anomaly Image Generation with Diffusion Model**](https://ojs.aaai.org/index.php/AAAI/article/view/28696/29348) | AAAI 2024 | 2023.12 | [Github](https://github.com/sjtuplayer/anomalydiffusion) |
 | [**DREAM: Efficient Dataset Distillation by Representative Matching**](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_DREAM_Efficient_Dataset_Distillation_by_Representative_Matching_ICCV_2023_paper.pdf) | ICCV 2023 | 2023.08 | [Github](https://github.com/Yanqing0327/DREAM) |
 | [**Few-Shot Defect Image Generation via Defect-Aware Feature Manipulation**](https://ojs.aaai.org/index.php/AAAI/article/view/25132/24904) | AAAI 2023 | 2023.03 | [Github](https://github.com/Ldhlwh/DFMGAN) |
 | [**Prototypical Residual Networks for Anomaly Detection and Localization**](http://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Prototypical_Residual_Networks_for_Anomaly_Detection_and_Localization_CVPR_2023_paper.pdf) | CVPR 2023 | 2022.12 | - |
 | [**Few-Shot Defect Segmentation Leveraging Abundant Defect-Free Training Samples Through Normal Background Regularization And Crop-And-Paste Operation**](https://ieeexplore.ieee.org/abstract/document/9428468/) | ICME 2021 | 2021.07 | - |
+
+
 
 ## Only Anomaly Images
 |  Title  |   Publication  |   Date   |   Code   |
