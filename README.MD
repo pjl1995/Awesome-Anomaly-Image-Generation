@@ -8,8 +8,10 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 |  Title  |   Publication  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [**DualAnoDiff: Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation**](https://arxiv.org/pdf/2408.13509) | arXiv 2024 | 2024.08 | [Github](https://github.com/yinyjin/DualAnoDiff) |
-|[**CUT: A Controllable, Universal, and Training-Free Visual Anomaly Generation Framework**](https://arxiv.org/pdf/2406.01078) | arxiv 2024 | 2024.06| [Github](https://github.com/google/nerfies)|
-|[**AnomalyXFusion: Multi-modal Anomaly Synthesis with Diffusion**](https://arxiv.org/pdf/2404.19444)| arxiv 2024 | 2024.04 | - |
+| [**AnomalyFactory: Regard Anomaly Generation as Unsupervised Anomaly Localization**](https://arxiv.org/pdf/2408.09533) | ECCVW 2024 | 2024.08 | - |
+| [**CUT: A Controllable, Universal, and Training-Free Visual Anomaly Generation Framework**](https://arxiv.org/pdf/2406.01078) | arxiv 2024 | 2024.06 | [Github](https://github.com/google/nerfies) |
+| [**LogicAL: Towards Logical Anomaly Synthesis for Unsupervised Anomaly Localization**](https://openaccess.thecvf.com/content/CVPR2024W/VAND/papers/Zhao_LogicAL_Towards_Logical_Anomaly_Synthesis_for_Unsupervised_Anomaly_Localization_CVPRW_2024_paper.pdf) | CVPRW 2024 | 2024.05 | - |
+| [**AnomalyXFusion: Multi-modal Anomaly Synthesis with Diffusion**](https://arxiv.org/pdf/2404.19444)| arxiv 2024 | 2024.04 | - |
 | [**AnomalyDiffusion: Few-Shot Anomaly Image Generation with Diffusion Model**](https://ojs.aaai.org/index.php/AAAI/article/view/28696/29348) | AAAI 2024 | 2023.12 | [Github](https://github.com/sjtuplayer/anomalydiffusion) |
 | [**DREAM: Efficient Dataset Distillation by Representative Matching**](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_DREAM_Efficient_Dataset_Distillation_by_Representative_Matching_ICCV_2023_paper.pdf) | ICCV 2023 | 2023.08 | [Github](https://github.com/Yanqing0327/DREAM) |
 | [**Few-Shot Defect Image Generation via Defect-Aware Feature Manipulation**](https://ojs.aaai.org/index.php/AAAI/article/view/25132/24904) | AAAI 2023 | 2023.03 | [Github](https://github.com/Ldhlwh/DFMGAN) |
