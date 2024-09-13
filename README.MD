@@ -4,7 +4,7 @@
 In industrial scenarios, anomaly data is extremely scarce due to high acquisition costs. The scarcity of anomaly data limits the performance of anomaly detection algorithms. Therefore, anomaly image generation methods can be used to obtain more anomaly data and improve the performance of anomaly detection algorithms. Anomaly image generation is a challenging task as it not only needs to generate a large number of diverse anomaly images with limited training data but also needs to generate corresponding pixel-level labels.
 
 # Papers
-## Gnerate Anomaly Images and Masks
+## Generate Anomaly Images and Masks
 |  Title  |   Publication  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [**DualAnoDiff: Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation**](https://arxiv.org/pdf/2408.13509) | arXiv 2024 | 2024.08 | [Github](https://github.com/yinyjin/DualAnoDiff) |
@@ -20,7 +20,7 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 | [**CutPaste: Self-Supervised Learning for Anomaly Detection and Localization**](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_CutPaste_Self-Supervised_Learning_for_Anomaly_Detection_and_Localization_CVPR_2021_paper.pdf) | CVPR 2021 | 2021.04 | - |
 
 
-## Only Anomaly Images
+## Generate Anomaly Images Only
 |  Title  |   Publication  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [**Few-shot Image Generation via Cross-domain Correspondence**](http://openaccess.thecvf.com/content/CVPR2021/papers/Ojha_Few-Shot_Image_Generation_via_Cross-Domain_Correspondence_CVPR_2021_paper.pdf) | CVPR 2021 | 2021.04 | - |
