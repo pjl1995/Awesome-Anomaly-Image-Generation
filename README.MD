@@ -28,9 +28,24 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 | [**Differentiable Augmentation for Data-Efficient GAN Training**](https://proceedings.neurips.cc/paper_files/paper/2020/file/55479c55ebd1efd3ff125f1337100388-Paper.pdf) | NeurIPS 2020 | 2020.06 | [Github](https://github.com/mit-han-lab/data-efficient-gans) |
 | [**Defect Image Sample Generation With GAN for Improving Defect Recognition**](https://www.researchgate.net/profile/Hui-Lin-14/publication/339362792_Defect_Image_Sample_Generation_With_GAN_for_Improving_Defect_Recognition/links/5fbfc7f9a6fdcc6cc66a69ac/Defect-Image-Sample-Generation-With-GAN-for-Improving-Defect-Recognition.pdf) | T-ASE 2020 | 2020.02 | - |
 
-# Datasets
-## Mvtec
-### Pixel-level Anomaly Localization
+# Performance
+## Generation quality
+### Mvtec
+| Motheds | IS | LPIPS |
+|:--------|:--------:|:--------:|
+| DiffAug | 1.58 | 0.09|
+| CropPaste | 1.51 | 0.14|
+|SDGAN | 1.71 | 0.13 |
+| DGAN | 1.69 | 0.15 |
+| DFMGAN | 1.72 | 0.20 |
+| AnomalyDiffusion | 1.80 | 0.32|
+|logicAL | 1.78 | 0.14 |
+| AnomalyFactory | 4.24 | 0.25 |
+
+
+## Performance of Anomaly Localization
+### Mvtec
+#### Pixel-level Anomaly Localization
 | Motheds | AUC | AP | F1 |
 |:--------|:--------:|:--------:|:--------:|
 |Dream|92.2|54.1|53.1|
@@ -38,3 +53,33 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 |DFMGAN|90.0|62.7|62.1|
 |AnomalyDiffusion|99.1|81.4|76.3|
 |DualAnoDiff|99.1|84.5|78.8|
+| LogicAL | 98.3 | - | - |
+
+#### Image-level Anomaly Localization
+| Motheds | AUC | AP | F1 |
+|:--------|:--------:|:--------:|:--------:|
+| LogicAL | 98.8 | - | - |
+
+### MADsim
+#### Pixel-level Anomaly Localization
+| Motheds | AUC | AP | F1 |
+|:--------|:--------:|:--------:|:--------:|
+| LogicAL | 86.0 | - | - |
+
+#### Image-level Anomaly Localization
+| Motheds | AUC | AP | F1 |
+|:--------|:--------:|:--------:|:--------:|
+| LogicAL | 67.6 | - | - |
+
+### VisA
+#### Pixel-level Anomaly Localization
+| Motheds | AUC | AP | F1 |
+|:--------|:--------:|:--------:|:--------:|
+| Dream | 88.8 | 25.4 | - |
+| LogicAL | 97.4 | 47.2 | - |
+
+#### Image-level Anomaly Localization
+| Motheds | AUC | AP | F1 |
+|:--------|:--------:|:--------:|:--------:|
+|Dream| 84.1 | - | - |
+| LogicAL | 95.3 | - | - |
