@@ -44,6 +44,7 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 |logicAL | 1.78 | 0.14 |
 | AnomalyFactory | 4.24 | 0.25 |
 | DualAnoDiff | 1.90 | 0.37 |
+| AnomalyXDiffusion | 1.82 | 0.33 |
 
 
 ## Performance of Anomaly Localization
@@ -57,11 +58,13 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 |AnomalyDiffusion|99.1|81.4|76.3|
 |DualAnoDiff|99.1|84.5|78.8|
 | LogicAL | 98.3 | - | - |
+| AnomalyXDiffusion | 99.3 | 86.1 | 80.6 |
 
 #### Image-level Anomaly Localization
 | Motheds | AUC | AP | F1 |
 |:--------|:--------:|:--------:|:--------:|
 | LogicAL | 98.8 | - | - |
+| AnomalyXDiffusion | 99.2 | 99.8 | 98.7 |
 
 ### MADsim
 #### Pixel-level Anomaly Localization
