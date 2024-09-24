@@ -35,12 +35,15 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 |:--------|:--------:|:--------:|
 | DiffAug | 1.58 | 0.09|
 | CropPaste | 1.51 | 0.14|
+| CDC | 1.65 | 0.07 |
 |SDGAN | 1.71 | 0.13 |
 | DGAN | 1.69 | 0.15 |
+| Defect-GAN | 1.69 | 0.15 |
 | DFMGAN | 1.72 | 0.20 |
 | AnomalyDiffusion | 1.80 | 0.32|
 |logicAL | 1.78 | 0.14 |
 | AnomalyFactory | 4.24 | 0.25 |
+| DualAnoDiff | 1.90 | 0.37 |
 
 
 ## Performance of Anomaly Localization
