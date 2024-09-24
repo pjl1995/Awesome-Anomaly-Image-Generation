@@ -41,10 +41,8 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 | Defect-GAN | 1.69 | 0.15 |
 | DFMGAN | 1.72 | 0.20 |
 | AnomalyDiffusion | 1.80 | 0.32|
-|logicAL | 1.78 | 0.14 |
-| AnomalyFactory | 4.24 | 0.25 |
-| DualAnoDiff | 1.90 | 0.37 |
 | AnomalyXDiffusion | 1.82 | 0.33 |
+| DualAnoDiff | 1.90 | 0.37 |
 
 
 ## Performance of Anomaly Localization
@@ -52,13 +50,12 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 #### Pixel-level Anomaly Localization
 | Motheds | AUC | AP | F1 |
 |:--------|:--------:|:--------:|:--------:|
-|Dream|92.2|54.1|53.1|
-|PRN|96.9|66.2|64.7|
-|DFMGAN|90.0|62.7|62.1|
-|AnomalyDiffusion|99.1|81.4|76.3|
-|DualAnoDiff|99.1|84.5|78.8|
-| LogicAL | 98.3 | - | - |
+| Dream | 92.2 | 54.1 | 53.1 |
+| PRN | 96.9 | 66.2 | 64.7 |
+| DFMGAN | 90.0 | 62.7 | 62.1 |
+| AnomalyDiffusion | 99.1 | 81.4 | 76.3 |
 | AnomalyXDiffusion | 99.3 | 86.1 | 80.6 |
+| DualAnoDiff | 99.1 | 84.5 | 78.8 |
 
 #### Image-level Anomaly Localization
 | Motheds | AUC | AP | F1 |
