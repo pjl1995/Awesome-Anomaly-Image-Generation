@@ -27,3 +27,13 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 | [**Defect-GAN: High-Fidelity Defect Synthesis for Automated Defect Inspection**](http://openaccess.thecvf.com/content/WACV2021/papers/Zhang_Defect-GAN_High-Fidelity_Defect_Synthesis_for_Automated_Defect_Inspection_WACV_2021_paper.pdf) | WACV 2021 | 2021.03 | - |
 | [**Differentiable Augmentation for Data-Efficient GAN Training**](https://proceedings.neurips.cc/paper_files/paper/2020/file/55479c55ebd1efd3ff125f1337100388-Paper.pdf) | NeurIPS 2020 | 2020.06 | [Github](https://github.com/mit-han-lab/data-efficient-gans) |
 | [**Defect Image Sample Generation With GAN for Improving Defect Recognition**](https://www.researchgate.net/profile/Hui-Lin-14/publication/339362792_Defect_Image_Sample_Generation_With_GAN_for_Improving_Defect_Recognition/links/5fbfc7f9a6fdcc6cc66a69ac/Defect-Image-Sample-Generation-With-GAN-for-Improving-Defect-Recognition.pdf) | T-ASE 2020 | 2020.02 | - |
+
+# Datasets
+## Mvtec
+### Pixel-level Anomaly Localization
+|Motheds|AUC|AP|F_{1}|
+|Dream|92.2|54.1|53.1|
+|PRN|96.9|66.2|64.7|
+|DFMGAN|90.0|62.7|62.1|
+|AnomalyDiffusion|99.1|81.4|76.3|
+|DualAnoDiff|99.1|84.5|78.8|
