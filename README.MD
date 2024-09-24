@@ -31,7 +31,8 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 # Datasets
 ## Mvtec
 ### Pixel-level Anomaly Localization
-|Motheds|AUC|AP|F_{1}|
+| Motheds | AUC | AP | F_{1} |
+|:--------|:--------:|:--------:|:--------:|
 |Dream|92.2|54.1|53.1|
 |PRN|96.9|66.2|64.7|
 |DFMGAN|90.0|62.7|62.1|
