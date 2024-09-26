@@ -28,6 +28,10 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 | [**Differentiable Augmentation for Data-Efficient GAN Training**](https://proceedings.neurips.cc/paper_files/paper/2020/file/55479c55ebd1efd3ff125f1337100388-Paper.pdf) | NeurIPS 2020 | 2020.06 | [Github](https://github.com/mit-han-lab/data-efficient-gans) |
 | [**Defect Image Sample Generation With GAN for Improving Defect Recognition**](https://www.researchgate.net/profile/Hui-Lin-14/publication/339362792_Defect_Image_Sample_Generation_With_GAN_for_Improving_Defect_Recognition/links/5fbfc7f9a6fdcc6cc66a69ac/Defect-Image-Sample-Generation-With-GAN-for-Improving-Defect-Recognition.pdf) | T-ASE 2020 | 2020.02 | - |
 
+# Dataset
+·Mvtec 
+·Visa
+
 # Performance
 ## Generation quality
 ### Mvtec
