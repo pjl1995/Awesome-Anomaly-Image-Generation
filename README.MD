@@ -29,8 +29,9 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 | [**Defect Image Sample Generation With GAN for Improving Defect Recognition**](https://www.researchgate.net/profile/Hui-Lin-14/publication/339362792_Defect_Image_Sample_Generation_With_GAN_for_Improving_Defect_Recognition/links/5fbfc7f9a6fdcc6cc66a69ac/Defect-Image-Sample-Generation-With-GAN-for-Improving-Defect-Recognition.pdf) | T-ASE 2020 | 2020.02 | - |
 
 # Dataset
-·Mvtec 
-·Visa
+* Mvtec
+  contian
+* Visa
 
 # Performance
 ## Generation quality
