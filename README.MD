@@ -33,8 +33,10 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 * **Visa** dataset contains 12 subsets corresponding to 12 different objects. It contains 10,821 images with 9,621 normal and 1,200 anomalous samples. Four subsets are different types of printed circuit boards (PCB) with relatively complex structures containing transistors, capacitors, chips, etc. [URL](https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar)
 
 # Performance
+Since the vast majority of papers have only conducted experiments on the Mvtec dataset, we only list the experimental results on Mvtec.
+
 ## Generation quality
-### Mvtec
+### Mvtec AD
 | Motheds | IS | LPIPS |
 |:--------|:--------:|:--------:|
 | DiffAug | 1.58 | 0.09|
@@ -64,8 +66,13 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 #### Image-level Anomaly Localization
 | Motheds | AUC | AP | F1 |
 |:--------|:--------:|:--------:|:--------:|
-| LogicAL | 98.8 | - | - |
+| Dream | 94.6 | 97.0 | 94.4 |
+| PRN | 91.6 | 96.6 | 92.4 |
+| DFMGAN | 87.2 | 94.8 | 94.7 |
+| AnomalyDiffusion | 99.2 | 99.7 | 98.7 |
 | AnomalyXDiffusion | 99.2 | 99.8 | 98.7 |
+| DualAnoDiff | 98.9 | 99.7 | 98.6 |
+<!--  | LogicAL | 98.8 | - | - | -->
 
 <!-- 
 ### MADsim
