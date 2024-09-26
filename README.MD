@@ -29,9 +29,8 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 | [**Defect Image Sample Generation With GAN for Improving Defect Recognition**](https://www.researchgate.net/profile/Hui-Lin-14/publication/339362792_Defect_Image_Sample_Generation_With_GAN_for_Improving_Defect_Recognition/links/5fbfc7f9a6fdcc6cc66a69ac/Defect-Image-Sample-Generation-With-GAN-for-Improving-Defect-Recognition.pdf) | T-ASE 2020 | 2020.02 | - |
 
 # Dataset
-* Mvtec
-  contian
-* Visa
+* **MVTec AD** is a dataset for benchmarking anomaly detection methods with a focus on industrial inspection. It contains over 5000 high-resolution images divided into fifteen different object and texture categories. Each category comprises a set of defect-free training images and a test set of images with various kinds of defects as well as images without defects. [URL](https://www.mvtec.com/company/research/datasets/mvtec-ad)
+* **Visa** dataset contains 12 subsets corresponding to 12 different objects. It contains 10,821 images with 9,621 normal and 1,200 anomalous samples. Four subsets are different types of printed circuit boards (PCB) with relatively complex structures containing transistors, capacitors, chips, etc. [URL](https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar)
 
 # Performance
 ## Generation quality
@@ -51,7 +50,7 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 
 
 ## Performance of Anomaly Localization
-### Mvtec
+### Mvtec AD
 #### Pixel-level Anomaly Localization
 | Motheds | AUC | AP | F1 |
 |:--------|:--------:|:--------:|:--------:|
@@ -68,6 +67,7 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 | LogicAL | 98.8 | - | - |
 | AnomalyXDiffusion | 99.2 | 99.8 | 98.7 |
 
+<!-- 
 ### MADsim
 #### Pixel-level Anomaly Localization
 | Motheds | AUC | AP | F1 |
@@ -90,4 +90,4 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 | Motheds | AUC | AP | F1 |
 |:--------|:--------:|:--------:|:--------:|
 |Dream| 84.1 | - | - |
-| LogicAL | 95.3 | - | - |
+| LogicAL | 95.3 | - | - |  -->
