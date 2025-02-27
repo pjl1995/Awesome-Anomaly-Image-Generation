@@ -7,7 +7,7 @@ In industrial scenarios, anomaly data is extremely scarce due to high acquisitio
 ## Generate Anomaly Images and Masks
 |  Title  |   Publication  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [**DualAnoDiff: Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation**](https://arxiv.org/pdf/2408.13509) | arXiv 2024 | 2024.08 | [Github](https://github.com/yinyjin/DualAnoDiff) |
+| [**DualAnoDiff: Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation**](https://arxiv.org/pdf/2408.13509) | CVPR 2025 | 2024.08 | [Github](https://github.com/yinyjin/DualAnoDiff) |
 | [**AnomalyFactory: Regard Anomaly Generation as Unsupervised Anomaly Localization**](https://arxiv.org/pdf/2408.09533) | ECCVW 2024 | 2024.08 | - |
 | [**CUT: A Controllable, Universal, and Training-Free Visual Anomaly Generation Framework**](https://arxiv.org/pdf/2406.01078) | arxiv 2024 | 2024.06 | - |
 | [**LogicAL: Towards Logical Anomaly Synthesis for Unsupervised Anomaly Localization**](https://openaccess.thecvf.com/content/CVPR2024W/VAND/papers/Zhao_LogicAL_Towards_Logical_Anomaly_Synthesis_for_Unsupervised_Anomaly_Localization_CVPRW_2024_paper.pdf) | CVPRW 2024 | 2024.05 | - |
